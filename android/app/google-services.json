@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287902679195",
+    "project_id": "app-movies-getx",
+    "storage_bucket": "app-movies-getx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287902679195:android:3257736c76d34da795463e",
+        "android_client_info": {
+          "package_name": "com.wladimirfilho.app_filmes_getx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287902679195-q9v5k3k16b6r621lkhc0440eqtttd8ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVWtB9rgBsDW2bBsGVqtNZIZA2ZW7KRsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287902679195-q9v5k3k16b6r621lkhc0440eqtttd8ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
