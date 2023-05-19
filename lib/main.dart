@@ -1,4 +1,6 @@
+import 'package:app_filmes_getx/application/bindings/application_binding.dart';
 import 'package:app_filmes_getx/firebase_options.dart';
+import 'package:app_filmes_getx/modules/home/home_module.dart';
 import 'package:app_filmes_getx/modules/login/login_module.dart';
 import 'package:app_filmes_getx/modules/splash/splash_module.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -21,18 +23,19 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
+      initialBinding: ApplicationBinding(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       getPages: [
         ...SplashModule().routers,
         ...LoginModule().routers,
+        ...HomeModule().routers
       ],
     );
   }
